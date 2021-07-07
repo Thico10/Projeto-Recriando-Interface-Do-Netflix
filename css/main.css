@@ -49,6 +49,27 @@ header .container {
 } 
 
 /*filme principal*/
+.serie-p {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),
+    url('../img/smallvillebanner.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.serie-p .descricao {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.serie-p .container p  i{
+    color: #e50914;  
+}
 
 .filme-p {
     font-size: 16px;
